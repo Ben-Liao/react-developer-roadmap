@@ -55,29 +55,34 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
             * [Redux Saga](https://redux-saga.js.org/)
             * [Redux Observable](https://redux-observable.js.org)
             * [Redux Thunk](https://github.com/reduxjs/redux-thunk)
-        2. Data persistence
+        2. Helpers
+            * [Reselect](https://github.com/reduxjs/reselect)
+        3. Data persistence
             * [Redux Persist](https://github.com/rt2zz/redux-persist)
-        3. [Redux Form](https://redux-form.com)
-7. Type Checkers
+        4. [Redux Form](https://redux-form.com)
+7. Developer tools
+    1. [React Developer Tools](https://github.com/facebook/react-devtools)
+    2. [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+8. Type Checkers
     * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
     * [TypeScript](https://www.typescriptlang.org/)
     * [Flow](https://flow.org/en/)
-8. Form Helpers
+9. Form Helpers
     * [Redux Form](https://redux-form.com)
-9. Routing
+10. Routing
     * [React-Router](https://reacttraining.com/react-router/)
-10. API Clients
+11. API Clients
     1. REST
         * [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
         * [axios](https://github.com/axios/axios)
     2. GraphQL
         * [Apollo](https://www.apollographql.com/docs/react/)
         * [Relay](https://facebook.github.io/relay/)
-11. Utility Libraries
+12. Utility Libraries
     * [RxJS](http://reactivex.io/)
     * [Moment](https://momentjs.com/)
     * [Lodash](https://lodash.com/)
-12. Testing
+13. Testing
     1. Unit Testing
         * [Jest](https://facebook.github.io/jest/)
         * [Enzyme](http://airbnb.io/enzyme/)
@@ -85,10 +90,10 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
         * [Selenium](https://www.seleniumhq.org/), [Webdriver](http://webdriver.io/)
         * [Cypress](https://cypress.io/)
         * [Puppeteer](https://pptr.dev/)
-13. Internationalization
+14. Internationalization
     * [React Intl](https://github.com/yahoo/react-intl)
     * [React i18next](https://react.i18next.com/)
-14. Code generators
+15. Code generators
     * [Hygen](https://www.hygen.io/)
     * [Plop](https://plopjs.com/)
 
