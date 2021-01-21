@@ -1,10 +1,23 @@
 # Serenova React Developer Roadmap
 
-> Roadmap to becoming a React developer in 2018
+[README in Chinese](README-CN.md)
 
-Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn in order to become a React developer. This chart was made for as a tip for everyone who asks "What should I learn next as a React developer?"
+[README in Japanese](README-JA.md)
 
-The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next.
+[README in Korean](README-KO.md)
+
+[README in Portuguese (Brazil)](README-PTBR.md)
+
+[README in Russian](README-RU.md)
+
+[README in Spanish](README-ES.md)
+
+> Roadmap to becoming a React developer in 2019:
+
+Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a React developer. I made this chart as a tip for everyone who asks me, "What should I learn next as a React developer?"
+
+## Disclaimer
+> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
 
 ## Roadmap
 
@@ -24,6 +37,7 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
         * Get familiar with the basics
         * [Course](https://www.codecademy.com/learn/introduction-to-javascript)
         * Learn new features (ECMA Script 6+)
+        * Additionally, get familiar with the jQuery library
 2. General Development Skills
     1. GIT 
         * [Course](https://www.codecademy.com/learn/learn-git)
@@ -54,16 +68,15 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
         1. Async actions (Side Effects)
             * [Redux Saga](https://redux-saga.js.org/)
             * [Redux Observable](https://redux-observable.js.org)
-            * [Redux Thunk](https://github.com/reduxjs/redux-thunk)
         2. Helpers
+            * [Rematch](https://rematch.gitbooks.io/rematch/)
             * [Reselect](https://github.com/reduxjs/reselect)
         3. Data persistence
             * [Redux Persist](https://github.com/rt2zz/redux-persist)
+            * [Redux Phoenix](https://github.com/adam-golab/redux-phoenix)
         4. [Redux Form](https://redux-form.com)
-7. Developer tools
-    1. [React Developer Tools](https://github.com/facebook/react-devtools)
-    2. [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
-8. Type Checkers
+    3. [MobX](https://mobx.js.org/)
+7. Type Checkers
     * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
     * [TypeScript](https://www.typescriptlang.org/)
     * [Flow](https://flow.org/en/)
@@ -80,9 +93,9 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
         * [Relay](https://facebook.github.io/relay/)
 12. Utility Libraries
     * [RxJS](http://reactivex.io/)
-    * [Moment](https://momentjs.com/)
-    * [Lodash](https://lodash.com/)
-13. Testing
+    * [ImmutableJS](https://facebook.github.io/immutable-js/)
+    * [Ramda](https://ramdajs.com/)
+12. Testing
     1. Unit Testing
         * [Jest](https://facebook.github.io/jest/)
         * [Enzyme](http://airbnb.io/enzyme/)
@@ -90,18 +103,40 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
         * [Selenium](https://www.seleniumhq.org/), [Webdriver](http://webdriver.io/)
         * [Cypress](https://cypress.io/)
         * [Puppeteer](https://pptr.dev/)
-14. Internationalization
+        * [Cucumber.js](https://github.com/cucumber/cucumber-js)
+        * [Nightwatch.js](http://nightwatchjs.org/)
+    3. Integration Testing
+        * [Karma](https://karma-runner.github.io/)
+13. Internationalization
     * [React Intl](https://github.com/yahoo/react-intl)
     * [React i18next](https://react.i18next.com/)
-15. Code generators
-    * [Hygen](https://www.hygen.io/)
-    * [Plop](https://plopjs.com/)
+14. Server Side Rendering
+    * [Next.js](https://nextjs.org/)
+    * [After.js](https://github.com/jaredpalmer/after.js)
+    * [Rogue](https://github.com/alidcastano/rogue.js)
+15. Static Site Generator
+    * [Gatsby](https://www.gatsbyjs.org/)
+16. Backend Framework Integration
+    * [React on Rails](https://shakacode.gitbooks.io/react-on-rails/content/)
+17. Mobile
+    * [React Native](https://facebook.github.io/react-native/)
+    * [Cordova](https://cordova.apache.org/)/[Phonegap](https://phonegap.com/)
+18. Desktop
+    * [Proton Native](https://proton-native.js.org/)
+    * [Electron](https://electronjs.org/)
+    * [React Native Windows](https://github.com/Microsoft/react-native-windows)
+19. Virtual Reality
+    * [React 360](https://facebook.github.io/react-360/)
+
+## Wrap Up
+
+If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
 ## Contribution
 
-The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `/src` directory. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you, update it, upload and update the images in readme and create a PR (export as png).
+The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `/src` directory. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png).
 
-- Open pull request with improvements
+- Open a pull request with improvements
 - Discuss ideas in issues
 
 ## License
